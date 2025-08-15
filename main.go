@@ -1,0 +1,1 @@
+package main\n\nimport (\n\t"fmt"\n)\n\nfunc main() {\n\tfmt.Println("Hello, Go debug world!")\n\tfor i := 0; i < 5; i++ {\n\t\tfmt.Printf("Counting: %d\n", i)\n\t}\n}
